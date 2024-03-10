@@ -1,14 +1,37 @@
 <!DOCTYPE html>
+<html lang="fi">
 <head>
   <meta charset="UTF-8">
   <title>Verkkosivu</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  <a href="index.html"> Siirry takaisin etusivulle</a>
+  <a href="index.html">Etusivulle</a>
+  
   <header>
-    <h1>Verkkosivun toisen sivu</h1>
+    <h1>Toinen sivu</h1>
   </header>
-  <section>
-    <p>Tässä on tämän sivun omaa tekstiä <a href="second.html"></a></p>
-  </section>
+
+  <div id="sisalto">
+    <p>Olet nyt toisella sivulla.</p>
+  </div>
+
+  <div id="kukka">
+    <img src="v.kukat.jpg" alt="Vaaleanpunaisia kukkia">
+  </div>
+
+  <figure id="lotuskukka">
+    <img src="lotuskukka.jpg" alt="Lotus kukka">
+    <figcaption id="kuvateksti">Lotus kukka</figcaption>
+  </figure>
+
+  <div id="teksti-palkille">
+  <p>Kurssin edistyminen:</p>
+  </div> 
+
+  <progress id="kurssipalkki" value="50" max="100"></progress>
+  <span>50%</span>
+  
 </body>
+</html>

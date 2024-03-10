@@ -1,0 +1,45 @@
+body {
+  background-color:rgb(245, 203, 236);
+}
+
+h1 {
+  width: 300px;
+  border: 3px solid;
+  border-radius: 10px;
+  padding: 3px;
+  border-color: rgb(166, 128, 202);
+  color: rgb(19, 3, 32);
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+#sisalto {
+  background-color: rgb(166, 128, 202);
+  width: 300px;
+  padding: 3px;
+  border: 3px solid;
+  border-color: rgb(219, 146, 210);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+#kukka img{
+  margin-left: 0; 
+  margin-bottom: 5px;
+  margin-top: 20px;
+  width: 500px;
+}
+
+#lotuskukka img{
+  width: 500px;
+}
+
+#lotuskukka {
+  margin-left: 0px;
+  padding-bottom: 20px;
+}
+
+
+
+
